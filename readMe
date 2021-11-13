@@ -1,0 +1,5 @@
+This lesson, we go over the basics of node.js
+- file systems, read and write, read and write to other files
+- modules, export modules
+- steaming data, reading and writing streaming data
+- globals
