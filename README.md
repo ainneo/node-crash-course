@@ -5,8 +5,8 @@
 
 #### Write HTML directly to the browser
 
-- 1. res.write("<p>hello, ninjas</p>")
-- 2. res.end(); //ends the response => must have an end
+- res.write("<p>hello, ninjas</p>")
+- res.end(); //ends the response => must have an end
 - this is not the best way to display HTML to browser
 
 #### Send HTML file
