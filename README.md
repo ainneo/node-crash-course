@@ -11,7 +11,7 @@
 
 #### Send HTML file
 
-- ``fs.readFile("./views/index.html", callback)``` //to send an html file
+- ```fs.readFile("./views/index.html", callback)``` //to send an html file
 - in the callback ```(err, data) => { if (err) { console.log(err); res.end(); } //res.write(data); //don't always need res.write if only a few res, we can directly pass data into res.end() res.end(data); });```
 
 #### Basic Routing
