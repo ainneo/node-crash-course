@@ -5,20 +5,20 @@
 
 #### Write HTML directly to the browser
 
-- res.write("<p>hello, ninjas</p>")
-- res.end(); //ends the response => must have an end
+- ```res.write("<p>hello, ninjas</p>")```
+- ```res.end()```; //ends the response => must have an end
 - this is not the best way to display HTML to browser
 
 #### Send HTML file
 
-- fs.readFile("./views/index.html", callback) //to send an html file
-- in the callback `(err, data) => { if (err) { console.log(err); res.end(); } //res.write(data); //don't always need res.write if only a few res, we can directly pass data into res.end() res.end(data); });`
+- ``fs.readFile("./views/index.html", callback)``` //to send an html file
+- in the callback ```(err, data) => { if (err) { console.log(err); res.end(); } //res.write(data); //don't always need res.write if only a few res, we can directly pass data into res.end() res.end(data); });```
 
 #### Basic Routing
 
 - switch statment
 - after switch we need to send HTML, by fs.readFile() and passing in the switch variable
-- ``// send html
+- ```// send html
   fs.readFile(path, (err, data) => {
   if (err) {
   console.log(err);
