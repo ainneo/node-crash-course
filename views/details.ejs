@@ -18,8 +18,8 @@
     const trashcan = document.querySelector('a.delete');
 
     trashcan.addEventListener('click', (e) => {
-      const endpoint = `/blogs/${trashcan.dataset.doc}`;
-
+      const endpoint = `/blogs/${trashcan.dataset.doc}`; //coomes from data-doc ???
+// AJAX Request
       fetch(endpoint, {
         method: 'DELETE',
       })
