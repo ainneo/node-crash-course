@@ -1,9 +1,9 @@
-# node-refresher
+## node-refresher
 #### build a blog from scratch
 Course files for the Node.js Crash Course tutorial series on The Net Ninja YouTube [channel](https://www.youtube.com/watch?v=OIBIXYLJjsI&list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU&index=2)
 
 
-# lessons via branch
+### lessons via branch
 1. lesson 1: intro
 2. lesson 2: node basics
 3. lesson 3: clients servers
